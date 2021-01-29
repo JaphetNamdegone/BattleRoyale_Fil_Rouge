@@ -1,0 +1,90 @@
+{
+    "short_name": "FIL ROUGE",
+    "name": "BATTLE ROYALE",
+    "description": "Jeu au tour par tour jouable avec des amis. Le jeu sera complètement asynchrone, c'est à dire que chaque joueur jouera quand il lui plaira dans un laps de temps de 24 heures lorsque son tour survient pour des parties qui peuvent s'étendre sur des semaines entières",
+    "lang": "en-US",
+    "icons": [{
+            "src": "icons/maskable_icon_x72.png",
+            "type": "image/png",
+            "sizes": "72x72",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/maskable_icon_x96.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/maskable_icon_x128.png",
+            "type": "image/png",
+            "sizes": "128x128",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/maskable_icon_x144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/maskable_icon_x152.png",
+            "type": "image/png",
+            "sizes": "152x152",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/maskable_icon_x384.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/maskable_icon_x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "display": "standalone",
+    "theme_color": "#053244",
+    "background_color": "#053244",
+    "scope": "/",
+    "start_url": "/index.html",
+    "categories": [
+        "games",
+        "entertainment",
+        "social"
+    ],
+    "screenshots": [{
+        "src": "icons/maskable_icon_x1.png",
+        "type": "image/png",
+        "sizes": "1x1"
+    }],
+    "shortcuts": [{
+            "name": "Create game",
+            "url": "/createGame",
+            "description": "Create a new game"
+        },
+        {
+            "name": "Invite a friend",
+            "url": "/invite",
+            "icons": []
+        },
+        {
+            "name": "My account",
+            "url": "/account",
+            "description": "My account"
+        },
+        {
+            "name": "Login",
+            "url": "/login",
+            "description": "Get online"
+        },
+        {
+            "name": "sign up",
+            "url": "/signup",
+            "description": "Signup"
+        }
+    ]
+}

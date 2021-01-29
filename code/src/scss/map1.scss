@@ -1,0 +1,49 @@
+
+            body, html {
+                padding: 0;
+                margin: 0;
+                color: red;
+            }
+            .map {
+                width: 800px;
+                height: 800px;
+                margin: auto;
+                display: grid;
+                position: relative;
+                grid-template-columns: repeat(10, 1fr);
+                grid-template-rows: repeat(10, 1fr);
+                // grid-column-gap: 0px;
+                // grid-row-gap: 0px;
+                // background-size: cover;
+                
+                background-color: blueviolet;
+                border: bottom 100rem;
+                // background-image: url(../maps/masse.jpg);
+                background-repeat: no-repeat;
+                margin-left: -13rem;
+            }
+    
+            .square {
+                padding-top: 100%;
+                position: relative;
+            }
+    
+            .cell {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+            .node    {
+                width: 20px;
+                height: 20px;
+                background-color: white;
+                outline: 1px solid rgba(144, 175, 175, 0.75);
+                display: inline-block;
+              }
+
+              .grid {
+                text-align: center;
+              }
